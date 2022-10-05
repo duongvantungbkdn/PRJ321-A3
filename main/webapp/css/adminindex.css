@@ -1,0 +1,86 @@
+@charset "UTF-8";
+
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+[class*="f-col"] {
+	margin: 0;
+	padding: 0;
+}
+
+header img {
+	width: 100%;
+	height: auto;
+	margin-bottom: -5px;
+}
+header h3, header a {
+	position: absolute;
+	top: 1.2rem;
+	color: #74f57e;
+	background: #858080;
+	padding: 0.8rem 1.5rem;
+	border-radius: 0.5rem;
+	opacity: 0.7;
+	font-weight: 700;
+}
+
+header h3 {
+	left: 1.2rem;
+}
+header a {
+	right: 1.2rem;
+	text-decoration: none;
+}
+
+header a:hover {
+	background: #c1272d;
+	color: white;
+	opacity: 1;
+}
+
+main {
+	color: white;
+}
+
+main .aside {
+	background: #272e41;
+	padding-top: 1rem;
+}
+
+main aside a {
+	display: block;
+	width: 100%;
+	padding: 0.8rem 1rem;
+	color: white;
+	text-decoration: none;
+}
+
+main aside a.active, main aside a:hover {
+	background: #c1272d;
+}
+
+main section {
+	background: #1a2034;
+}
+
+main .table-staff {
+	display: flex;
+    padding: 1rem;
+    align-items: start;
+    justify-content: center;
+    min-height: 400px;
+}
+
+main section table thead {
+	background: #c1272d;
+}
+main section table tbody {
+	background: #20293f;
+}
+
+main section table th, main section table td {
+	padding: 0.8rem;
+}

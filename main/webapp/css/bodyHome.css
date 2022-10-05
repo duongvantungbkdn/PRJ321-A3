@@ -1,0 +1,196 @@
+body {
+	font-family: sans-serif;
+	background: #f1f1f1;
+}
+
+/* body content style */
+.container-body-home {
+	padding-top: 1rem;
+}
+
+.container-body-home .leftcontent {
+	order: 2;
+}
+
+.container-body-home .rightcontent {
+	order: 1;
+}
+
+.container-body-home .load-data-failed-message {
+	text-align: center;
+	padding: 10rem 0 15rem 0;
+	color: red;
+	font-size: 3rem;
+}
+
+/* style one product */
+.container-body-home .oneproduct {
+	margin-bottom: 2rem;
+    padding: 0.6rem;
+    border: 2px solid #eee;
+    background: white;
+    border-radius: 0.5rem;
+}
+.container-body-home .oneproduct a {
+	text-decoration: none;
+}
+.container-body-home .oneproduct a img {
+	width: 70%;
+	display: block;
+	margin: auto;
+}
+.container-body-home .oneproduct a h2{
+	color: #333;
+    text-transform: uppercase;
+    margin: 0;
+    padding: 0.5rem 0;
+	font-weight: 650;
+}
+.container-body-home .oneproduct .type-and-brand {
+	display: flex;
+    justify-content: space-between;
+}
+.container-body-home .oneproduct .type-and-brand p{
+	text-transform: uppercase;
+    color: #999;
+    padding-bottom: 0.3rem;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+.container-body-home .oneproduct .price-details {
+    border-top: 2px solid #CD1F25;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: baseline;
+}
+.container-body-home .oneproduct .price-number {
+    font-size: 2rem;
+    font-weight: 650;
+    color: #333;
+}
+.container-body-home .oneproduct .add-cart a {
+    display: block;
+    padding: 0.5rem 1rem;
+    background: #CD1F25;
+   	color: #FFF;
+    text-decoration: none;
+    outline: 0;
+}
+
+/* style for cart*/
+.cart, .new-product {
+	border: 2px solid #CD1F25;
+	margin-bottom: 1rem;
+}
+.cart .cart-header, .new-product .new-product-header {
+	font-size: 1.7rem;
+	padding: 0.8rem;
+    background: #CD1F25;
+   	color: #FFF;
+   	text-transform: uppercase;
+   	text-align: center;
+}
+.cart .cart-item-detail {
+	padding: 0 0.8rem;
+	border-bottom: 1px solid #555;
+}
+.cart .cart-item-name-wrap {
+	display: flex;
+    background: #ddd;
+    justify-content: space-between;
+    padding: 0 0.8rem;
+    align-items: center;
+}
+.cart .cart-item-name {
+	text-decoration: none;
+    display: block;
+    text-align: start;
+    color: #222;
+    font-weight: 700;
+    padding: 0.8rem 0;
+}
+.cart .cart-item-delete {
+	text-decoration: none;
+    width: 1.7rem;
+    height: 1.7rem;
+    display: block;
+    background: #cd1f25;
+    text-align: center;
+    line-height: 1.7rem;
+    color: white;
+    border-radius: 0.2rem;
+    font-weight: 600;
+}
+.cart .cart-item-detail {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.cart .cart-item-detail img{
+	width: 70px;
+	height: 70px;
+	margin-top: 0.3rem;
+}
+.cart .cart-item-quantity {
+	display: flex;
+	justify-content: space-between;
+	align-items: baseline;
+}
+.cart .cart-item-quantity p {
+    padding: 0.1rem 0.6rem;
+    background: white;
+    border: 1px solid gray;
+    margin: 0 0.2rem;
+}
+.cart .cart-item-quantity a {
+    padding: 0.2rem 0.6rem;
+    border: none;
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+}
+.cart .cart-item-quantity .add {
+	background: green;
+}
+.cart .cart-item-quantity .minus {
+	background: #CD1F25;
+}
+.cart .cart-item-total-price {
+	padding: 0.2rem 0.5rem;
+    background: white;
+}
+.cart .cart-total-sum {
+	display: flex;
+	justify-content: space-between;
+	padding: 0.8rem;
+	font-weight: 550;
+}
+.cart .cart-total-sum p {
+	font-weight: 650;
+}
+.cart .cart-total-pay {
+	display: flex;
+    justify-content: end;
+    padding: 0 0.8rem 0.8rem 0.8rem;
+}
+.cart .cart-total-pay-btn {
+	border: none;
+    border-radius: 0.4rem;
+    background: #CD1F25;
+    padding: 0.5rem 1rem;
+    color: white;
+    text-decoration: none;
+}
+.cart .cart-message {
+	padding: 2rem 0;
+    text-align: center;
+    font-weight: 600;
+    color: #555;
+}
+
+@media screen and (min-width: 768px) {
+	.container-body-home  .rightcontent {
+		order: 3;
+	}
+}

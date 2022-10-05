@@ -1,0 +1,80 @@
+.container-body .product-name {
+	padding: 1rem 2rem;
+    border-bottom: 2px solid #aaaa;
+    color: #666;
+    justify-content: center;    
+}
+.container-body .product-name h2{
+	text-transform: uppercase;
+	font-size: 2rem;
+}
+
+.container-body .product-detail {
+	margin-top: 1rem;
+	margin-bottom: 1rem;
+}
+.container-body .col-img img {
+	width: 90%;
+    display: block;
+    margin: auto;
+}
+.container-body .col-info {
+	display: flex;
+	flex-direction: column;
+}
+.container-body .info-wrap {
+	order: 2;
+}
+.container-body .price-wrap {
+	display: flex;
+	margin-bottom: 1rem;
+    justify-content: center;
+}
+.container-body .price-number{
+	font-size: 2rem;
+    font-weight: 800;
+    margin-right: 3rem;
+}
+
+.container-body .type-and-brand{
+	display: flex;
+}
+.container-body .type-and-brand p{
+    padding: 1rem;
+    margin-right: 0.3rem;
+    background: #edd;
+    border-radius: 0.5rem;
+    color: #555;
+}
+.container-body .button-group{
+	display: flex;
+	order: 1;
+	margin: 1rem auto;
+}
+.container-body .button-group a{
+	background: #cd1f25;
+    text-decoration: none;
+    color: white;
+    padding: 0.8rem;
+    border-radius: 0.3rem;
+}
+.container-body .button-group a:nth-child(1){
+	margin-right: 0.5rem;
+}
+.load-data-failed-message {
+	text-align: center;
+	padding: 10rem 0 15rem 0;
+	color: red;
+	font-size: 3rem;
+}
+
+@media screen and (min-width: 768px) {
+	.container-body .button-group{
+		order: 3;
+		margin: 1rem 0;
+	}
+	
+	.container-body .price-wrap {
+	    justify-content: start;
+	}
+}
